@@ -36,7 +36,7 @@ namespace Tyuiu.PankovaAA.Sprint3.Task0.V4
             Console.WriteLine("*  РЕЗУЛЬТАТ:                                                             *");
 
             double result = ds.GetMultiplySeries(value, startValue, stopValue);
-            Console.WriteLine($"Произведение ряда = {result:F8}");
+            Console.WriteLine($"Произведение ряда = {result:F3}");
             Console.ReadKey();
 
             Console.WriteLine("***************************************************************************");
