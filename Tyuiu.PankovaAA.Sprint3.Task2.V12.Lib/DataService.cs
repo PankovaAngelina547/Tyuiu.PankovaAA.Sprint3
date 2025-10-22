@@ -15,7 +15,7 @@ namespace Tyuiu.PankovaAA.Sprint3.Task2.V12.Lib
                 i++;
             } while (i <= stopValue);
 
-            return product;
+            return Math.Round(product, 3);
         }
     }
 }
